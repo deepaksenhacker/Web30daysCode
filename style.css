@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(221, 209, 217);
+}
+.title{
+    width: 100%;
+    height: 10%;
+    padding: 1px;
+    background-color: rgb(158, 132, 162);
+margin-bottom: 20px;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+}
+.text1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.text2{
+    padding: 3px;
+    background-color: rgb(220, 46, 185);
+    color: white;
+    border-radius: 3%;
+}
+.child{
+    margin: auto;
+  
+    padding: 3px;
+    width: 20%;
+    height: 50%;
+}
+.child2{
+    width: 100%;
+}
+
+.box{
+    width: 10%;
+    height: 22%;
+    background-color: rgb(250, 241, 241);
+    border: 1px solid pink;
+    margin-top: 24px;
+overflow: hidden;
+
+}
+.box:hover{
+border: 4px solid pink;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.c1{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.imgbg{
+    width: 90%;
+    margin-left: 20px;
+}
